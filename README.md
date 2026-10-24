@@ -4,9 +4,9 @@
 
 ## 下载与安装
 
-**[下载 v4.1.0 安装包](got-you-v4.1.0.zip?raw=1)** · [版本发布页](https://github.com/yangguidong/-/releases) · [安装与更新](先看这里_安装与更新.txt)
+**[下载 v4.1.0 安装包](got-you-v4.1.0.zip?raw=1)** · [版本发布页](https://github.com/YGDONER/-/releases) · [安装与更新](先看这里_安装与更新.txt)
 
-分享本仓库首页即可。普通用户下载上面的安装包；开发者可直接查看下方源码。商店上传包用于发布者提交 Chrome／Edge 扩展商店，不能在浏览器中双击安装。
+分享本仓库首页即可。普通用户下载上面的安装包；完整源码和检查文件见 [source-release.zip](source-release.zip?raw=1)。商店上传包用于发布者提交 Chrome／Edge 扩展商店，不能在浏览器中双击安装。
 
 ## 这版改好了什么
 
@@ -82,12 +82,14 @@
 
 清单在本机浏览器存储，没有自建解析服务器或云同步；以图检索按上方说明将所选参考画面发送给你选择的搜索服务。详细说明见插件内“使用说明”和 `xhs-note-desk/privacy.html`。JSON 备份包含清单与资源链接，不含媒体文件、浏览器下载历史或其他人的登录状态。
 
-## 开发者
+## 开发者与后续发布
 
-- `xhs-note-desk`：插件可读源码，运行无外部依赖。
-- `开发检查/tests`：92 项自动化检查，`node --test 开发检查/tests/*.test.mjs`。
-- `publisher/build_release.py`：校验并生成上传包／安装包；无需第三方 Python 库。
-- `发布资料`：安装、后续分享发布与更新说明。
+完整源码位于 `source-release.zip` 中，解压后可直接查看 `xhs-note-desk`，运行 `node --test 开发检查/tests/*.test.mjs`。安装包中也保留可读源码与检查文件。
+
+- `xhs-note-desk`：插件源码，运行无外部依赖。
+- `开发检查/tests`：92 项自动化检查。
+- `publisher/build_release.py`：校验并生成安装包和商店上传包。
+- `发布资料`：安装、分享、版本说明与更新步骤。
 - `验证说明.md`：测试覆盖及尚未验证的实际环境。
-- `downloads`：可直接下载的完整安装包、商店上传包与 SHA256 校验值。
-- `release.json` 与 `.github/workflows/release.yml`：更新发布配置后运行检查，并将已校验的文件发布到同一仓库的 Releases。通过网页上传时，source-release.zip 会按校验值恢复完整源码目录并提交，之后生成版本附件。
+
+本次采用手动 GitHub Releases 发布。后续做好新版后，先运行检查、生成更高版本的安装包，再在同一仓库创建新版本 Release 并上传附件。未启用 GitHub Actions 自动写入仓库或自动提交代码。
