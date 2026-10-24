@@ -1,0 +1,23 @@
+{
+  "version": "4.1.0",
+  "name": "抓到你啦 v4.1.0",
+  "notes": "发布资料/v4.1.0.md",
+  "assets": [
+    {
+      "path": "downloads/got-you-v4.1.0.zip",
+      "sha256": "a32a4630ecf89dd39f419b63528f8846d55ed559231bc5f7355fa67cdefff0d8"
+    },
+    {
+      "path": "downloads/got-you-store-v4.1.0.zip",
+      "sha256": "db8dff75123091005c3147b22f3835467453ba2092d1f28672d2065e2f76a569"
+    },
+    {
+      "path": "downloads/SHA256SUMS.txt",
+      "sha256": "1cf4be7b4f706d571297868d0a74761860fb4fe89a3be5503d92cc77889857aa"
+    }
+  ],
+  "source_archive": {
+    "path": "source-release.zip",
+    "sha256": "130b4e98cdd20fe18f604727adde7d0e10a7fc45126659b6051772f4417e6c70"
+  }
+}

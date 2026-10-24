@@ -1,0 +1,1 @@
+{"private": true, "type": "module", "version": "4.1.0", "scripts": {"test": "node --test 开发检查/tests/*.test.mjs"}}
