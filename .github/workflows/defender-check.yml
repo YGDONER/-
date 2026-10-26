@@ -36,7 +36,7 @@ jobs:
             if ($status.AntivirusSignatureLastUpdated -lt (Get-Date).AddDays(-1)) { throw 'INCONCLUSIVE: Defender signatures are stale.' }
             $preference = Get-MpPreference
             if ($preference.DisableArchiveScanning -or $preference.DisableScriptScanning -or @($preference.ExclusionPath | Where-Object { $_ }).Count -gt 0) { throw 'INCONCLUSIVE: Required files may be excluded from scanning.' }
-            Invoke-WebRequest -Uri 'https://github.com/YGDONER/-/releases/download/v4.2.0/got-you-v4.2.0.zip' -OutFile $zip
+            Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/YGDONER/-/e253d937563dcf0379fc93980fceb23795759d62/got-you-v4.2.0.zip' -OutFile $zip
             $hash = (Get-FileHash -Algorithm SHA256 -LiteralPath $zip).Hash.ToLowerInvariant()
             Write-Host "Package SHA256: $hash"
             if ($hash -ne $expected) { throw 'INCONCLUSIVE: Download does not match the published package.' }
