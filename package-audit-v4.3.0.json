@@ -1,0 +1,13 @@
+{
+  "package": "got-you-v4.3.0.zip",
+  "bytes": 108476,
+  "sha256": "91b7b27588ceb17a22f5bd2d973c140ea7a67c1ba2c4a0e73c5b1b96d9cb83ad",
+  "version": "4.3.0",
+  "files": 33,
+  "local_scripts": 20,
+  "pages": 3,
+  "static_package_audit": "passed",
+  "antivirus_result": "not established by this static audit",
+  "automated_checks": 126,
+  "reproducible_install_zip": true
+}
