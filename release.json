@@ -1,25 +1,39 @@
 {
   "repository": "YGDONER/-",
-  "version": "4.2.0",
-  "tag": "v4.2.0",
+  "version": "4.3.0",
+  "tag": "v4.3.0",
   "mode": "manual",
-  "installation_package": "got-you-v4.2.0.zip",
-  "source_package": "source-v4.2.0.zip",
-  "store_package": "got-you-store-v4.2.0.zip",
-  "checks": 115,
+  "installation_package": "got-you-v4.3.0.zip",
+  "source_package": "source-v4.3.0.zip",
+  "store_package": "got-you-store-v4.3.0.zip",
+  "checks": 126,
   "native_image_search_live_verified": false,
   "files": {
-    "got-you-v4.2.0.zip": {
-      "bytes": 97712,
-      "sha256": "af732f63a15b57e1e849e117593337d63e5de54571bbd738c3ceab3ea40362a6"
+    "got-you-v4.3.0.zip": {
+      "bytes": 108476,
+      "sha256": "91b7b27588ceb17a22f5bd2d973c140ea7a67c1ba2c4a0e73c5b1b96d9cb83ad"
     },
-    "got-you-store-v4.2.0.zip": {
-      "bytes": 95088,
-      "sha256": "ca8f14e8a4966e5cd7353aa145ab9117ec248f6451ef80a733b5106893904919"
+    "got-you-store-v4.3.0.zip": {
+      "bytes": 106459,
+      "sha256": "c4085646fd7fb02e623997ebfe05468a934b18e998d65d3bfa954d0832f7714b"
     },
-    "source-v4.2.0.zip": {
-      "bytes": 133563,
-      "sha256": "9ab2a93f32bff58312b50a2e7597b3dbb4fb83569e9372272af9ecd8e3312ae7"
+    "source-v4.3.0.zip": {
+      "bytes": 152205,
+      "sha256": "250ff8e9798eaf6337c48abb7c1060a534fb147a139dfaea21a4e6d74be06b93"
     }
+  },
+  "defender_scan": {
+    "run_url": "https://github.com/YGDONER/-/actions/runs/40297343767",
+    "job_id": 121486510789,
+    "workflow_commit": "01d3641313da73a721c4dad9e2f48a44ef893afc",
+    "scanned_package_commit": "d61574ff7d1010b6fb642ec282ef14223bc74477",
+    "scanned_utc": "2026-10-26T09:09:29Z",
+    "environment": "Windows Server 2022 (GitHub-hosted runner)",
+    "engine": "1.1.26090.9",
+    "platform": "4.18.26090.9",
+    "signatures": "1.461.209.0",
+    "result": "No threats found in the three ZIP packages and their extracted files; no matching threat-history detections.",
+    "extension_code_executed": false,
+    "limitations": "Does not establish Windows 11 download-reputation clearance or a Microsoft false-positive review decision."
   }
 }
