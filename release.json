@@ -1,23 +1,25 @@
 {
-  "version": "4.1.0",
-  "name": "抓到你啦 v4.1.0",
-  "notes": "发布资料/v4.1.0.md",
-  "assets": [
-    {
-      "path": "downloads/got-you-v4.1.0.zip",
-      "sha256": "a32a4630ecf89dd39f419b63528f8846d55ed559231bc5f7355fa67cdefff0d8"
+  "repository": "YGDONER/-",
+  "version": "4.2.0",
+  "tag": "v4.2.0",
+  "mode": "manual",
+  "installation_package": "got-you-v4.2.0.zip",
+  "source_package": "source-v4.2.0.zip",
+  "store_package": "got-you-store-v4.2.0.zip",
+  "checks": 115,
+  "native_image_search_live_verified": false,
+  "files": {
+    "got-you-v4.2.0.zip": {
+      "bytes": 97712,
+      "sha256": "af732f63a15b57e1e849e117593337d63e5de54571bbd738c3ceab3ea40362a6"
     },
-    {
-      "path": "downloads/got-you-store-v4.1.0.zip",
-      "sha256": "db8dff75123091005c3147b22f3835467453ba2092d1f28672d2065e2f76a569"
+    "got-you-store-v4.2.0.zip": {
+      "bytes": 95088,
+      "sha256": "ca8f14e8a4966e5cd7353aa145ab9117ec248f6451ef80a733b5106893904919"
     },
-    {
-      "path": "downloads/SHA256SUMS.txt",
-      "sha256": "1cf4be7b4f706d571297868d0a74761860fb4fe89a3be5503d92cc77889857aa"
+    "source-v4.2.0.zip": {
+      "bytes": 133563,
+      "sha256": "9ab2a93f32bff58312b50a2e7597b3dbb4fb83569e9372272af9ecd8e3312ae7"
     }
-  ],
-  "source_archive": {
-    "path": "source-release.zip",
-    "sha256": "130b4e98cdd20fe18f604727adde7d0e10a7fc45126659b6051772f4417e6c70"
   }
 }
