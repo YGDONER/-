@@ -1,0 +1,17 @@
+{
+  "package": "got-you-v4.4.0.zip",
+  "bytes": 118493,
+  "sha256": "6030018595724febb1fe36fc4fbcd356d917d1bf20781226801f9c1294740fe3",
+  "version": "4.4.0",
+  "files": 35,
+  "local_scripts": 22,
+  "pages": 3,
+  "static_package_audit": "passed",
+  "antivirus_result": "not established by this static audit",
+  "automated_tests": 141,
+  "javascript_syntax": "passed",
+  "reproducible_build": "passed",
+  "live_platform_test": "not completed",
+  "new_antivirus_scan": false,
+  "browser_ui_qa": "not completed"
+}

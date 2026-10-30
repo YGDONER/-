@@ -1,39 +1,29 @@
 {
   "repository": "YGDONER/-",
-  "version": "4.3.0",
-  "tag": "v4.3.0",
+  "version": "4.4.0",
+  "tag": "v4.4.0",
   "mode": "manual",
-  "installation_package": "got-you-v4.3.0.zip",
-  "source_package": "source-v4.3.0.zip",
-  "store_package": "got-you-store-v4.3.0.zip",
-  "checks": 126,
+  "installation_package": "got-you-v4.4.0.zip",
+  "source_package": "source-v4.4.0.zip",
+  "store_package": "got-you-store-v4.4.0.zip",
+  "automatic_updates_for_unpacked": false,
+  "store_listing": null,
+  "checks": 141,
   "native_image_search_live_verified": false,
+  "instagram_image_search_scope": "local visible loaded post images only; no verified native full-site image-upload search",
+  "new_antivirus_scan": false,
   "files": {
-    "got-you-v4.3.0.zip": {
-      "bytes": 108476,
-      "sha256": "91b7b27588ceb17a22f5bd2d973c140ea7a67c1ba2c4a0e73c5b1b96d9cb83ad"
+    "got-you-store-v4.4.0.zip": {
+      "bytes": 116300,
+      "sha256": "1f74d5d70fb93110d4547767d96e592430007cca00dd88d2fedbca7680698ca2"
     },
-    "got-you-store-v4.3.0.zip": {
-      "bytes": 106459,
-      "sha256": "c4085646fd7fb02e623997ebfe05468a934b18e998d65d3bfa954d0832f7714b"
+    "got-you-v4.4.0.zip": {
+      "bytes": 118493,
+      "sha256": "6030018595724febb1fe36fc4fbcd356d917d1bf20781226801f9c1294740fe3"
     },
-    "source-v4.3.0.zip": {
-      "bytes": 152205,
-      "sha256": "250ff8e9798eaf6337c48abb7c1060a534fb147a139dfaea21a4e6d74be06b93"
+    "source-v4.4.0.zip": {
+      "bytes": 168817,
+      "sha256": "8706e45825fbe41f53e3e2b37e57979ebd153240a7c9b681e7f6a0316a3d4171"
     }
-  },
-  "defender_scan": {
-    "run_url": "https://github.com/YGDONER/-/actions/runs/40297343767",
-    "job_id": 121486510789,
-    "workflow_commit": "01d3641313da73a721c4dad9e2f48a44ef893afc",
-    "scanned_package_commit": "d61574ff7d1010b6fb642ec282ef14223bc74477",
-    "scanned_utc": "2026-10-26T09:09:29Z",
-    "environment": "Windows Server 2022 (GitHub-hosted runner)",
-    "engine": "1.1.26090.9",
-    "platform": "4.18.26090.9",
-    "signatures": "1.461.209.0",
-    "result": "No threats found in the three ZIP packages and their extracted files; no matching threat-history detections.",
-    "extension_code_executed": false,
-    "limitations": "Does not establish Windows 11 download-reputation clearance or a Microsoft false-positive review decision."
   }
 }
